@@ -1,11 +1,11 @@
 import Filters from "./Filters";
 
-export default function Header({ changeFilters }) {
+export default function Header() {
 	return (
 		<div>
 			<h1>React Shop 🛒</h1>
 
-			<Filters onChange={changeFilters} />
+			<Filters />
 		</div>
 	);
 }
