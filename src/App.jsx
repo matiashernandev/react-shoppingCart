@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Cart from "./components/Cart";
 import { Footer } from "./components/Footer";
 import Header from "./components/Header";
 import Products from "./components/Products";
@@ -15,6 +16,7 @@ export default function App() {
 	return (
 		<>
 			<Header />
+			<Cart />
 			<Products products={filteredProducts} />
 			{IS_DEVELOPMENT && <Footer />}
 		</>
